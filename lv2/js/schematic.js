@@ -1,0 +1,18 @@
+var c = document.getElementById("schematic");
+var ctx = c.getContext("2d");
+	data.ctx.beginPath();
+	data.ctx.moveTo(320, 540);
+	data.ctx.lineTo(100, 260);
+	data.ctx.lineTo(240, 120);
+	data.ctx.lineTo(320, 360);
+	data.ctx.lineTo(100, 260);
+	data.ctx.lineTo(400, 120);
+	data.ctx.lineTo(240, 120);
+	data.ctx.lineTo(540, 260);
+	data.ctx.lineTo(400, 120);
+	data.ctx.lineTo(320, 360);
+	data.ctx.lineTo(540, 260);
+	data.ctx.closePath();
+	data.ctx.lineWidth = 2;
+	data.ctx.strokeStyle = '#e5e5e5';
+	data.ctx.stroke();

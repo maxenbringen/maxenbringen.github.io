@@ -1,0 +1,32 @@
+body {
+background: #1e1e1e;
+}
+
+p {
+font-size: 1.8em;
+font-family: "Arial";
+font-weight: 900;
+letter-spacing: -1px;
+color: #d8d8d8;
+text-transform: uppercase;
+}
+
+a {
+text-decoration: none;
+color: #d8d8d8;
+text-transform: uppercase;
+font-size: 1.2em;
+font-family: "Arial";
+font-weight: 800;
+letter-spacing: -0.5px;
+float: right;
+}
+
+#title {
+padding-left: 10px; 
+}
+
+#schematic {
+display: inline;
+float: right;
+}

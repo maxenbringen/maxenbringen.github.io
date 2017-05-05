@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Eulerian path</title>
+</head>
+
+<body>
+
+	<a href="../lv2/index.html">Konstruerad graf</a>
+
+    <canvas id="dots"></canvas>
+
+	<script src="js/connecting-dots.js"></script>
+
+
+	<p id="title">Is there an Eulerian path/circuit in the figure below?</p>
+
+	<canvas id=random width=600 height=600></canvas>
+
+	<script src="js/random-dots.js"></script>
+
+<!--
+<script>
+for (var i = 0; i <= 10; i++) {
+    var count = 0;
+    var loopEnd = Math.floor(Math.random() * 1000 + 1);
+    
+    for (var j = 0; j < loopEnd; j++) {
+        count++;
+    }
+    console.log(count);
+    document.getElementById("demo").innerHTML += Math.floor((i + j)/2) +"<br>";
+}
+</script>
+-->
+	
+</body>
+</html>
