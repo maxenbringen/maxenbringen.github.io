@@ -22,6 +22,17 @@ letter-spacing: -0.5px;
 float: right;
 }
 
+#left {
+text-decoration: none;
+color: #d8d8d8;
+text-transform: uppercase;
+font-size: 1.2em;
+font-family: "Arial";
+font-weight: 800;
+letter-spacing: -0.5px;
+float: right;
+}
+
 #title {
 padding-left: 10px; 
 }
